@@ -1,10 +1,11 @@
-# 🚲 Sliding Bike Rack
-
-![Project Photo](images/finished/main.jpg)
+# 🚲 Bike Rack
 
 ## 📋 Description
-A sliding bike rack system to store multiple bicycles compactly and accessibly.  
-Designed to optimize space in a garage or bike room.
+This rack was inspired by the version sold on decathlon.fr, which is very affordable but had brackets that were too short for my setup.  
+The design presented here was partially built using recycled materials (mainly screws). Feel free to adapt the components if you already have similar parts on hand.  
+
+Bike rack system to store multiple bicycles compactly and accessibly.  
+Designed to optimize space in a garage or bike room.  
 
 ---
 
@@ -13,56 +14,74 @@ Designed to optimize space in a garage or bike room.
 2. [Bill of Materials (BOM)](#bill-of-materials-bom)
 3. [Required Tools](#required-tools)
 4. [Assembly Instructions](#assembly-instructions)
-5. [Plans and Files](#plans-and-files)
-6. [Maintenance and Safety](#maintenance-and-safety)
-7. [License](#license)
+5. [Maintenance and Safety](#maintenance-and-safety)
+6. [License](#license)
 
 ---
 
 ## 📐 Features
-- Capacity: **X** bikes
-- Finished dimensions: **XXX mm x XXX mm**
-- Max load: **XX kg**
-- Main materials: steel, wood, aluminum…
+- Capacity: 4 bikes, extendable if needed
+- Maximum load: approximately 50 kg, depending on the number of brackets used
 
 ---
 
 ## 📦 Bill of Materials (BOM)
-See [`bom/bom.csv`](bom/bom.csv) for the full list.
+See [`bom/bom.csv`](bom/bom.csv) for the complete list.
 
-| Qty | Reference       | Description                  | Supplier     |
-|-----|----------------|------------------------------|--------------|
-| 4   | M8x50 bolts    | Hex head steel bolts          | Home Depot   |
-| 2   | Sliding rail   | 100kg load, 1m length         | Amazon       |
+| Qty | Brand     | Reference  | Description                                  | Supplier                 | Indicative price | Wall mount | Ceiling mount | Recycled material |
+|-----|-----------|------------|----------------------------------------------|--------------------------|------------------|------------|---------------|------------------|
+| 2   | WÜRTH     | 0862009043 | VARIFIX Heavy-duty bracket 36/36 600 mm      | ventil.fr / contorion.fr | 45 €             |     X      |               |                  |  
+| 1   | RED HEAD  | 25039036   | Pack of 4 G2X 16x65 mm heavy-duty wall plugs | bricomarche.fr           | 15 €             |     X      |               |                  |  
+| 2   | VAR Tools | PR-70311   | Pair of M-size road bike hooks               | velo-store.fr            | 8 €              |     X      |       X       |                  |  
+| 6   | Alberts   | PR-70311   | 3-sided galvanized bracket, 55x30x72 mm      | weldom.fr                | 2.2 €            |     X      |       X       |         X        |     
+| 12  | Generic   | N/A        | Flat washer Ø6x2 mm                          | bricotdepot.fr           | N/A              |     X      |       X       |         X        | 
+| 1   | Generic   | N/A        | Pine beam 70x45 mm, length 1.2 m             | bricotdepot.fr           | N/A              |     X      |       X       |         X        | 
+| 4   | Generic   | N/A        | Round head steel screws Ø6 x L.30 mm         | bricotdepot.fr           | N/A              |     X      |       X       |         X        | 
 
 ---
 
 ## 🛠 Required Tools
 - Drill/driver
+- Concrete drill bit (16 mm)
 - Wrenches (sizes 10 & 13)
 - Spirit level
-- Jigsaw (if cutting wood)
+- Hand saw for wood
 
 ---
 
 ## 📜 Assembly Instructions
-Detailed build instructions are available in [`docs/instructions.md`](docs/instructions.md).  
-Quick overview:
-1. Attach sliding rails to the wall support
-2. Install wheel holders
-3. Check alignment and smooth movement
+
+### Step 1 — Assemble the hooks
+Attach the hooks to the brackets using nuts and washers.  
+In my case, I prepared four of them.  
+If you have thread-locking compound (e.g. Loctite), feel free to use it.  
+Here’s an example of what you should get:
+
+<img alt="Hook" src="images/hook.jpg" title="Hook" width="640"/>
+
+Next, fix them onto the wooden beam, making sure there is enough spacing so that the bikes don’t touch each other.
+
+<img alt="Hook mounted" src="images/hook_mounted.jpg" title="Hook mounted" width="640"/>
 
 ---
 
-## 📂 Plans and Files
-- DXF Plans: [`plans/dxf/`](plans/dxf/)
-- STL Models: [`plans/stl/`](plans/stl/)
-- PDF Schematics: [`plans/pdf/`](plans/pdf/)
+### Step 2 — Fix the brackets to the wall
+Since the rack needs to support a heavy load, make sure to choose the right type of anchors for your wall.  
+In my case, I had to fix them into cinder blocks, so I used RED HEAD heavy-duty wall plugs. This kit is normally designed for a hot water tank, so it’s more than strong enough for this application.
+
+<img alt="Rack on bracket" src="images/rack_on_bracket.jpg" title="Rack on bracket" width="640"/>
+
+The spacing of the brackets must match the length of the wooden beam you are using. Once this is done, simply fix the beam onto the brackets using wood screws.  
+
+Here’s what the finished rack looks like:
+
+<img alt="Rack mounted" src="images/rack_mounted.jpg" title="Rack mounted" width="640"/>
 
 ---
 
 ## 🧰 Maintenance and Safety
-See [`docs/maintenance.md`](docs/maintenance.md).
+After a few weeks of use, check that all bolts and screws remain tight.  
+If they tend to loosen, apply a bit of thread-locking compound on the hook bolts.  
 
 ---
 
